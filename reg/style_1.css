@@ -1,0 +1,74 @@
+@font-face{
+    font-family: CMTattooDragon_Cyrillic2;
+    src: url("CMTattooDragon_Cyrillic2.otf");
+}
+body{    
+    font-family: CMTattooDragon_Cyrillic2;
+    background: rgba(0, 101, 255, 0.6);
+    margin: 0;    
+}
+h1{
+    margin: 0;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 5px solid gray;
+}
+.form_0{
+    margin: 0 auto;
+    background: lightgray;
+    width: 450px;
+    height: 550px;
+    padding: 20px;
+    box-shadow: 3px 4px 5px lightslategrey;
+}
+.form_1{
+    margin: 0 auto;
+    background: lightgray;
+    width: 450px;
+    height: 350px;
+    padding: 20px;
+    box-shadow: 3px 4px 5px lightslategrey;
+}
+.group{
+    margin: 10px;
+    padding: 5px;
+}
+.return{
+    margin-left: 15px;
+    padding: 10px;
+}
+label{
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+input{
+    margin-top: 10px;
+    height: 40px;
+    width: 400px;
+    border-radius: 20/20px;
+    border: none;
+    padding-left: 15px;
+    font-size: 18px;
+}
+input:focus{
+    border: 3px solid lightslategray;
+    transform: translateX(10px);
+    width: 385px;
+}
+button{
+    font-family: CMTattooDragon_Cyrillic2;
+    cursor: pointer;
+    padding: 10px 30px;
+    height: 55px;
+    color: rgb(28, 28, 110);
+    background: royalblue;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.93);    
+}
+button:hover{
+    opacity: .80;
+    font-weight: hold;
+    transform: scale(1.2);
+}
